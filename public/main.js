@@ -97,9 +97,7 @@ function clicked(e){
     e.preventDefault()
 
     let query = document.querySelector('input')
-    console.log('query:', query)
     if(!query.value){
-        console.log('made in bitches!')
         return
     }
 

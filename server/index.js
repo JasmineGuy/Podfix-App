@@ -1,7 +1,17 @@
 const express = require('express')
+const path =require('path')
 const cors = require('cors')
 const ctrl = require('./controller')
 const app = express()
+
+
+const port = process.env.PORT || 4000
+
+app.use(express.static("public"));
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public'))
+});
 
 app.use(express.json()); 
 app.use(cors());
@@ -18,7 +28,6 @@ app.get('/api/get-fix-list', ctrl.getFixList);
 app.post('/api/get-recommendations', ctrl.getRecs);
 
 
-
-app.listen(4000, ()=> {
-    console.log('Listening on 4000')
+app.listen(port, () => {
+    console.log(`Listening on port ${port}`)
 })
