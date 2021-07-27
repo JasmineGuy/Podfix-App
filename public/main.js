@@ -81,7 +81,8 @@ const getComedy = () => {
 function showResults(results){
 
     let displayCards =results.map(result => {
-        let displayCard = document.createElement('div')
+        let displayCard = document.createElement('a')
+        displayCard.setAttribute('href', `./detail.html?id=${result.id}`)
         displayCard.classList.add('display')
         displayCard.innerHTML = `<img alt='podcast-image' src='${result.imageURL}' class='podcast-image'/>`
                                 
