@@ -25,8 +25,6 @@ function getFixList(){
                 <p> Title: ${item.title}</p>
                 <p> Rating: ${item.rating}</p>
                 </div>
-                <div>
-                </div>
             </div>
             `
             
