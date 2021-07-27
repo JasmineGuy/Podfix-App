@@ -63,15 +63,17 @@ textarea {
 #search-button {
   height: 7vh;
   width: 6vw;
-  background-color: #133a94;
+  background-color: #a85c9c;
   border-radius: 5%;
   font-size: 20px;
   border: none;
   opacity: 75%;
 }
 #search-button:hover {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   opacity: 100%;
+  border: 3px solid white;
+  border-radius: 3px;
 }
 .banner-container {
   height: 500px;

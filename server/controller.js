@@ -25,7 +25,6 @@ module.exports = {
         let editSearch = search.toLowerCase()
         let holder = []
         for (let i =0; i< podcasts.length; i++){
-            // console.log('INSIDE: ', podcasts[i].cast)
             console.log('BEFORE: ', podcasts[i].cast)
             let cast = podcasts[i].cast.map(x => x.toLowerCase());
             let genres = podcasts[i].genreName.map(x => x.toLowerCase());
