@@ -11,7 +11,7 @@ const getTrending = () => {
     .get('http://localhost:4000/api/trending')
     .then((res)=> {
         let podInfo = res.data
-
+        console.log(res.data)
         let podCards = podInfo.map(pod => {
             let podCard = document.createElement('a')
             podCard.classList.add('pod-card')
