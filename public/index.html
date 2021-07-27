@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PodFix</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+            <img id="logo"src="https://drive.google.com/uc?export=view&id=15CDr5LppDsNPH4v6M81PG0kYtCyUhMak"alt="logo" height='300'/>
+            </a>
+        </div>
+        <div class="nav-container">
+            <h3 class="nav-link"><a href="./about.html">About </a></h3>
+            <h3 class="nav-link"><a href="./fixlist.html">My Fixlist</a></h3>
+            <h3 class="nav-link"><a href="./discover.html">Discover </a></h3>
+        </div>
+    </header>
+
+    <div class="banner-container">
+        <div class="banner-left">
+            <h1>Looking for your next podcast fix?</h1>
+            <h6>You're in the right place.</h6>
+        </div>
+        <div class="banner-right"></div>
+    </div>
+    <div class="search">
+        <form>
+            <input type="search" class="search-bar" placeholder="Search by title, genre or host"/>
+            <button id="search-button">search</button>
+        </form>
+    </div>
+   
+    
+    
+    <div class="viewable">
+        <div class="row-1">
+            <div class="display-container" id="search-display"></div>
+        </div>
+        <div class="row-2">
+            <h2>Trending Now</h2>
+            <div class="display-container" id="top-container"></div>
+         </div>
+         <div class="row-3">
+            <h2>True Crime</h2> 
+            <div class="display-container" id="middle-container"></div> 
+         </div>
+         <div class="row-4">
+            <h2>Comedy</h2>
+            <div class="display-container" id="bottom-container"></div> 
+        </div>
+    </div> 
+
+    <footer>
+        <div class="left"></div>
+        <div class="middle"></div>
+        <div class="right"></div>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

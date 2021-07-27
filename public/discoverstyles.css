@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0 5px;
+  background-color: black;
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+header {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+#logo {
+  margin-left: -75px;
+}
+.nav-container {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.banner-container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  margin: 3%;
+  opacity: 80%;
+}
+.banner-left {
+  height: 500px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.banner-right {
+  background-image: url("https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+  height: 500px;
+  background-size: cover;
+  width: 60%;
+  background-color: #a85c9c;
+  background-blend-mode: overlay;
+}
+
+.button-container {
+  height: 25vh;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:flex-end
+  border: 1px solid green;
+}
+.cat-button {
+  height: 10vh;
+  width: 10vw;
+  font-size: 20px;
+  border: 3px solid #a85c9c;
+  border-radius: 3px;
+  margin: 3px;
+
+}
+.cat-button:hover {
+  transform: scale(1.1);
+}
+.category-display {
+  height: 30vh;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+.pod-card {
+  height: 30vh;
+  width: 20%;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.podcast-image {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+}
+.podcast-image:hover {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  cursor: pointer;
+  /* opacity: 100%; */
+  transform: scale(1.1);
+}

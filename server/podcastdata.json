@@ -1,0 +1,337 @@
+ [
+    {
+        "id": 1,
+        "title": "Nasa's Curious Universe",
+        "genreName": ["Trending"],
+        "genreIds": [1, 4],
+        "description": "Our universe is a wild and wonderful place. Join NASA astronauts, scientists, and engineers on a new adventure each week — all you need is your curiosity. Visit the Amazon rainforest, explore faraway galaxies and dive into our astronaut training pool. First-time space explorers welcome.",
+        "imageURL": "https://www.nasa.gov/sites/default/files/styles/side_image/public/thumbnails/image/podcast_thumbnail05.jpg?itok=SD5y8Z8-",
+        "latestEpisodes": [],
+        "cast": ["Padi Boyd"],
+        "rating": 4.3
+      },
+    {
+        "id": 2,
+        "title": "The Midnight Miracle",
+        "genreName": ["Trending", "Society and Culture"],
+        "genreIds": [1, 4],
+        "description": "The Midnight Miracle is a thought-provoking podcast that uniquely blends the salon and variety show traditions while providing a glimpse into the inner lives of hosts Talib Kweli, yasiin bey, Dave Chappelle, and friends. The Midnight Miracle was recorded during Chappelle's legendary 2020 Summer Camp in Ohio",
+        "imageURL": "https://img2.luminarypodcasts.com/v1/podcast/c88501e3-f783-43cc-b00a-022d2a3ad33b/default/h_200,w_200/image/s--WpH1phRA--/aHR0cHM6Ly9tZWdhcGhvbmUuaW1naXgubmV0L3BvZGNhc3RzL2MxZDE3MzdjLTg1YWEtMTFlYi1iMWVhLTkzMDA3ZDFlZTk3OS9pbWFnZS9NTV9UaWxlX1I1XzEucG5nP2l4bGliPXJhaWxzLTIuMS4yJm1heC13PTMwMDAmbWF4LWg9MzAwMCZmaXQ9Y3JvcCZhdXRvPWZvcm1hdCxjb21wcmVzcw==.png",
+        "latestEpisodes": [],
+        "cast": ["Dave Chappelle", "Talib Kweli","yasin bey"],
+        "rating": 4.4
+    },
+    {
+        "id": 3,
+        "title": "Radio Rental",
+        "genreName": ["Trending", "Comedy"],
+        "genreIds": [1, 3],
+        "description": "Welcome to Radio Rental. Bizarre, true scary stories told by those who lived them",
+        "imageURL": "https://media.vanityfair.com/photos/5db84dd101b866000810c542/1:1/w_960,h_960,c_limit/radio-rental-lede.jpg",
+        "latestEpisodes": [],
+        "cast": ["Rain Wilson", "Payne Lindsay"],
+        "rating": 4.4
+    },
+    {
+        "id": 4,
+        "title": "U Up?",
+        "genreName": ["Trending","Comedy" ],
+        "genreIds": [1, 3],
+        "description": "U Up? is the definitive modern dating podcast presented by Betches co-founder Jordana Abraham and comedian Jared Freid, where they discuss their take on the ebbs and flows of the crazy dating world we live in. From interpreting dating app interactions and weird sexual encounters, to defining the relationship and everything in between - they’re here to make sure you don’t die alone. For more fun dating commentary, polls, and bonus content, follow @uuppod on Instagram.",
+        "imageURL": "https://stitcher-classic.imgix.net/feedimagesplain600/158333.jpg?w=200&h=200",
+        "latestEpisodes": [],
+        "cast": ["Jared Freid", "Jordan Abraham"],
+        "rating": 4.8
+    },
+    {
+        "id": 5,
+        "title": "Elixir",
+        "genreName": ["Trending", "Society and Culture"],
+        "genreIds": [1, 4],
+        "description": "In this Prohibition-inspired fantasy, two women from opposing sides of a ban on magic unite to solve a mystery...and end up falling into forbidden love.Elsie’s sister Lou is missing. The only clue she has leads her to a Hush bar: one of the last remaining—and illegal— establishments where people consume magical elixirs. Vera’s family has made elixirs for generations at The Jaded Rose. With her father imprisoned, she is responsible for protecting their traditions...no matter the cost.",
+        "imageURL": "https://m.media-amazon.com/images/I/51FRiHVPxQS._SL500_.jpg",
+        "latestEpisodes": [],
+        "cast": [],
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "title": "Paper Ghosts",
+        "genreName": ["True Crime"],
+        "genreIds": [2],
+        "description": "Deep in America’s heartland, on a scorching July 4th weekend in 1981, an alarm went out––the massive farmhouse of an Ohio family was engulfed in flames. All four residents were found dead. But was it the fire that killed them? In season 2 of PAPER GHOSTS, investigative journalist and bestselling true crime author M. William Phelps' search for answers takes a turn after the discovery of declassified documents and a cache of never-before-heard audio tapes help expose the dark truth behind what happened 40 years ago.",
+        "imageURL": "https://i.iheart.com/v3/url/aHR0cHM6Ly9tZWdhcGhvbmUuaW1naXgubmV0L3BvZGNhc3RzLzQ5YjNjZWRlLWMyMWEtMTFlYS1hZTY2LWM3ZDVhZTJhOGI0ZS9pbWFnZS9QYXBlckdob3N0c1MyLUxvZ28tRklOQUwzMDAweDMwMDAuanBnP2l4bGliPXJhaWxzLTIuMS4yJm1heC13PTMwMDAmbWF4LWg9MzAwMCZmaXQ9Y3JvcCZhdXRvPWZvcm1hdCxjb21wcmVzcw",
+        "latestEpisodes": [],
+        "cast": ["M. William Phelps"],
+        "rating": 4.4
+    },
+    {
+        "id": 7,
+        "title": "Chasing Cosby",
+        "genreName": ["True Crime"],
+        "genreIds": [2],
+        "description": "For nearly half a century, Bill Cosby brought warmth and laughter into hearts across the country, cementing his image as “America’s Dad.” But he also led a dark, secret life preying on women. The comedian carefully coaxed each one into feeling safe and cared for, then left them to pick up the pieces of their lives. It all started with Andrea Constand. She carried the burden of being the only one of the 60-plus accusers whose case could be tried in a court of law. Now, she's telling her side of the story, along with firsthand accounts from more than a dozen survivors, jurors and prosecutors. From the Los Angeles Times, and hosted by investigative reporter Nicki Weisensee Egan, 'Chasing Cosby' is the definitive take of the rise and fall of Bill Cosby.",
+        "imageURL": "https://images.radio.com/podcast/6b3b212417.jpg",
+        "latestEpisodes": [],
+        "cast": ["Nicole Weisensee Egan"],
+        "rating": 4.6
+    },
+    {
+        "id": 8,
+        "title": "The Thing About Pam",
+        "genreName": ["True Crime"],
+        "genreIds": [2],
+        "description": "Two days after Christmas, 2011, Russ Faria came home from game night to find his wife, Betsy, dead. He was soon charged and convicted of her murder. But Russ Faria insisted he did not kill his wife. Betsy’s brutal murder set off a chain of events that would leave one man dead, another man implicated, and expose a diabolical scheme. It would also see Dateline NBC—the true-crime original—become a part of the never-ending saga that proves the old adage: Truth is stranger than fiction. This original series from Keith Morrison and Dateline defies all expectations.",
+        "imageURL": "https://content.production.cdn.art19.com/images/39/7e/35/b5/397e35b5-ea38-4950-80b8-4c6e5d8cedde/d28a5486b9008b3d98bf22fb9dd8a0f8ac500e0464d142b2cca2ec7a910e3f7629c96d1cbcca4d5803161dd22cb2e0b1836bb0cddbc7562e8db5e476ab537f7e.jpeg",
+        "latestEpisodes": [],
+        "cast": ["Keith Morrison"],
+        "rating": 4.6
+    },
+    {
+        "id": 9,
+        "title": "Jury Duty: The Trial of Robert Durst",
+        "genreName": ["True Crime"],
+        "genreIds": [2],
+        "description": "The story of billionaire Robert Durst and his possible involvement in the deaths of three people became world-famous because of the popular HBO series, The Jinx. Hear the story of the Durst trial for the murder of Susan Berman as it happens, with unique access to evidence and testimony from pre-trial proceedings, courtroom recaps, expert commentary, witness testimony and interviews with individuals who have special knowledge related to the homicide trial. This groundbreaking real-time true crime series is created, hosted and produced by Oscar and Emmy-winning documentary filmmaker Kary Antholis.",
+        "imageURL": "https://m.media-amazon.com/images/I/51U-pZaTcDL._SL500_.jpg",
+        "latestEpisodes": [],
+        "cast": ["Kary Antholis"],
+        "rating": 4.4
+    },
+    {
+        "id": 10,
+        "title": "Anatomy of Murder",
+        "genreName": ["True Crime"],
+        "genreIds": [2],
+        "description": "ANATOMY OF MURDER is a weekly true crime podcast examining homicide cases and paths to justice for the victims. Former New York City homicide prosecutor and host of Investigation Discovery’s True Conviction, Anna-Sigga Nicolazzi, teams up with Emmy award-winning investigative journalist, and former Deputy Sheriff Scott Weinberger, to take listeners behind the scenes, for an insider’s perspective of compelling homicide cases from around the country. In every episode, listeners will also hear and gain insight from a victim’s family member, the prosecutor, or a member of law enforcement directly involved in the investigation.",
+        "imageURL": "https://images.radio.com/podcast/7m5dhhd.jpg",
+        "latestEpisodes": [],
+        "cast": ["Anna-Sigga Nikolazzi", "Scott Weinberger"],
+        "rating": 4.7
+    },
+    {
+        "id": 11,
+        "title": "Smartless",
+        "genreName": ["Comedy", "Society and Culture"],
+        "genreIds": [3, 4],
+        "description": "'SmartLess' with Jason Bateman, Sean Hayes, & Will Arnett is a podcast that connects and unites people from all walks of life to learn about shared experiences through thoughtful dialogue and organic hilarity. A nice surprise: in each episode of SmartLess, one of the hosts reveals his mystery guest to the other two. What ensues is a genuinely improvised and authentic conversation filled with laughter and newfound knowledge to feed the SmartLess mind.",
+        "imageURL": "https://images.radio.com/podcast/5efda576d5.jpg",
+        "latestEpisodes": [],
+        "cast": ["Jason Bateman", "Sean Hayes","Will Arnett"],
+        "rating": 4.7
+    },
+    {
+        "id": 12,
+        "title": "Conan Needs a Friend",
+        "genreName": ["Comedy"],
+        "genreIds": [3],
+        "description": "After 25 years at the Late Night desk, Conan realized that the only people at his holiday party are the men and women who work for him. Over the years and despite thousands of interviews, Conan has never made a real and lasting friendship with any of his celebrity guests. So, he started a podcast to do just that. Deeper, unboundedly playful, and free from FCC regulations, Conan O’Brien Needs a Friend is a weekly opportunity for Conan to hang out with the people he enjoys most and perhaps find some real friendship along the way.",
+        "imageURL": "https://stitcher.imgix.net/bb198154a063fca057e1033b0a2f9308f77c322073d74efb79497a0113dcfec6.jpg?w=600&h=600",
+        "latestEpisodes": [],
+        "cast": ["Conan O'Brien"],
+        "rating": 4.8
+    },
+
+    {
+        "id": 13,
+        "title": "Bill Burr's Monday Morning Podcast",
+        "genreName": ["Comedy"],
+        "genreIds": [3],
+        "description": "Monday Morning Podcast is a twice weekly comedy podcast hosted by American comedian, actor and celebrity podcaster Bill Bur",
+        "imageURL": "https://yt3.ggpht.com/ytc/AKedOLQTOYfZQ63kzcNhbbKwArorBLZ62yXtL_muXepfiQ=s900-c-k-c0x00ffffff-no-rj",
+        "latestEpisodes": [],
+        "cast": ["Bill Burr"],
+        "rating": 4.8
+    },
+
+    {
+        "id": 14,
+        "title": "Office Ladies",
+        "genreName": ["Comedy"],
+        "genreIds": [3],
+        "description": "The Office co-stars and best friends, Jenna Fischer and Angela Kinsey, are doing the ultimate The Office re-watch podcast for you. Each week Jenna and Angela will break down an episode of The Office and give exclusive behind the scene stories that only two people who were there, can tell you.",
+        "imageURL": "https://www.omnycontent.com/d/programs/aaea4e69-af51-495e-afc9-a9760146922b/75a86d39-9e0e-4e9a-b948-aae301805fe6/image.jpg?t=1596577787&size=Large",
+        "latestEpisodes": [],
+        "cast":  ["Jenna Fischer", "Angela Kinsey"],
+        "rating": 4.9
+    },
+
+    {
+        "id": 15,
+        "title": "Armchair Expert with Dax Shepard",
+        "genreName": ["Comedy", "Society and Culture"],
+        "genreIds": [3, 4],
+        "description": "Hi, I’m Dax Shepard, and I love talking to people. I am endlessly fascinated by the messiness of being human, and I find people who are vulnerable and honest about their struggles and shortcomings to be incredibly sexy. I invite you to join me as I explore other people’s stories. We will celebrate, above all, the challenges and setbacks that ultimately lead to growth and betterment.",
+        "imageURL": "https://yt3.ggpht.com/ytc/AKedOLQlvzrktnMC71N9I9j9CTJ23NWuDdwLXKb8Tyam=s900-c-k-c0x00ffffff-no-rj",
+        "latestEpisodes": [],
+        "cast": ["Dax Shepard"],
+        "rating": 4.7
+    }, 
+    {
+        "id": 16,
+        "title": "Stuff You Should Know",
+        "genreName": ["Society and Culture"],
+        "genreIds": [4],
+        "description": "If you've ever wanted to know about champagne, satanism, the Stonewall Uprising, chaos theory, LSD, El Nino, true crime and Rosa Parks, then look no further. Josh and Chuck have you covered",
+        "imageURL": "https://i.iheart.com/v3/url/aHR0cHM6Ly9tZWdhcGhvbmUuaW1naXgubmV0L3BvZGNhc3RzLzFlNzA1ZGQ0LTJkZTYtMTFlOC1iNTVkLTliYTZkZGIzZjc1ZS9pbWFnZS91cGxvYWRzXzJGMTU0Njk5NjEzOTUzNi0wbzNwdzkzZDhtay1kNWYxMTQzYzE0YTc0Njc1NGM1NWVmYjQ3OGM2Njk4OF8yRlNLU0tMb2dvLUZJTkFMLWlIUi0zMDAweDMwMDAucG5nP2l4bGliPXJhaWxzLTIuMS4yJm1heC13PTMwMDAmbWF4LWg9MzAwMCZmaXQ9Y3JvcCZhdXRvPWZvcm1hdCxjb21wcmVzcw",
+        "latestEpisodes": [],
+        "cast": ["Chuck Bryant", "Josh Clark"],
+        "rating": 4.5
+    },
+
+    {
+        "id": 17,
+        "title": "We Can Do Hard Things with Glennon Doyle",
+        "genreName": ["Society and Culture"],
+        "genreIds": [4],
+        "description": "I’m Glennon Doyle, author of Untamed – the book that was released at the very start of the pandemic and became a lifeline for millions. I watched in awe from my home while this simple phrase from Untamed – WE CAN DO HARD THINGS – the mantra that saved my life twenty years ago, became a worldwide rally cry. ",
+        "imageURL": "https://m.media-amazon.com/images/I/51Kuzx3C--S._SL500_.jpg",
+        "latestEpisodes": [],
+        "cast": ["Glennon Doyle"],
+        "rating": 4.8
+    },
+
+    {
+        "id": 18,
+        "title": "Revisionist History",
+        "genreName": ["Society and Culture"],
+        "genreIds": [4],
+        "description": "Revisionist History is Malcolm Gladwell's journey through the overlooked and the misunderstood. Every episode re-examines something from the past—an event, a person, an idea, even a song—and asks whether we got it right the first time. From Pushkin Industries. Because sometimes the past deserves a second chance iHeartMedia is the exclusive podcast partner of Pushkin Industries.",
+        "imageURL": "https://megaphone.imgix.net/podcasts/1427a2f4-2674-11e6-a3d7-cf7ee2a2c03c/image/uploads_2F1592404340573-bgxnavis74n-2a4c211c2dce427220c794dcbef06962_2FRH%2BFinal%2BArtwork%2BPushkin.jpg?ixlib=rails-2.1.2&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+        "latestEpisodes": [],
+        "cast": ["Malcolm Gladwell"],
+        "rating": 4.7
+    },
+    {
+        "id": 19 ,
+        "title": "Anything Goes",
+        "genreName": ["Society and Culture"],
+        "genreIds": [4],
+        "description": "Emma has a LOT on her mind. Good thing she has a podcast to talk about it all. Appropriately named, anything really does go on this podcast. Thoughts, conversations, and advice on topics from relationships and dealing with failure, to the trials and tribulations of being a cat mom, and ridiculous stories with friends we can all relate to. It’s raw, intimate, and nothing is off limits (seriously, Anything Goes). It may be serious, it’ll mostly be funny, and it’ll always be entertaining. New episodes every Thursday.",
+        "imageURL": "https://stitcher-classic.imgix.net/feedimagesplain600/387153.jpg?w=850&h=850&sat=-100",
+        "latestEpisodes": [],
+        "cast": ["Emma Frances Chamberlain"],
+        "rating": 4.8
+    },
+    {
+        "id": 20 ,
+        "title": "Human Hope with Carlos Whittaker",
+        "genreName": ["Society and Culture"],
+        "genreIds": [4],
+        "description": "In a time where humanity is desperate to find hope, Carlos leads us in conversations that bring us just that. From fun discussions about everyday joy to polarizing and challenging topics, Carlos shows even the most calloused heart that there is still hope in humanity. For more on Carlos and his books visit CarlosWhittaker.com.",
+        "imageURL": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/542672/542672-1614749840447-47ad6c0735142.jpg",
+        "latestEpisodes": [],
+        "cast": ["Carlos Whittaker"],
+        "rating": 5
+    },
+    {
+    "id": 21,
+    "title": "Pardon My Take",
+    "genreName": ["Sports"],
+    "genreIds": [6],
+    "description": "On 'Pardon My Take,' Big Cat & PFT Commenter deliver the loudest and most correct sports takes in the history of the spoken word. Daily topics, guests, and an inability to tell what the hosts might be doing will make this your new favorite sports talk show. This is a podcast that will without a doubt change your life for the better- guaranteed, or your money back. *Pretend a reggaeton air horn is going off right now* PMT.",
+    "imageURL": "https://hashtagsports.com/awards/img/shortlist2020/pardon-my-take-pod.jpg",
+    "latestEpisodes": [],
+    "cast": ["Dan Katz"],
+    "rating": 4.9
+    },
+    {
+        "id": 22,
+        "title": "The Dan Le Batard Show with Stugotz",
+        "genreName": ["Sports"],
+        "genreIds": [5],
+        "description": "From their Oceanside studios at the Clevelander Hotel in Miami Beach, Dan Le Batard, Stugotz and company share their unique perspectives on all-things sports, pop-culture and more. This is the place for original content from Lebatard and Stu Gotz, including the daily “Local Hour” generally focusing on the South Florida scene, the Big Suey, and a few more surprises along the way.",
+        "imageURL": "https://m.media-amazon.com/images/M/MV5BMzU3ZDg4NjEtYjM1Mi00MDhiLTk5YzItZWYzNGZjYjUxNTA5XkEyXkFqcGdeQXVyNTExODM0NDI@._V1_.jpg",
+        "latestEpisodes": [],
+        "cast": ["Dan Le Betard", "Baron Davis", "Jon Weiner"],
+        "rating": 4.8
+    },
+    {
+        "id": 23 ,
+        "title": "The Bill Simmons Podcast",
+        "genreName": ["Sports"],
+        "genreIds": [5],
+        "description": "HBO and The Ringer's Bill Simmons hosts the most downloaded sports podcast of all time, with a rotating crew of celebrities, athletes, and media staples, as well as mainstays like Cousin Sal, Joe House, and a slew of other friends and family members who always happen to be suspiciously available.",
+        "imageURL": "https://stitcher-classic.imgix.net/feedimagesplain600/76706.jpg?w=600&h=600",
+        "latestEpisodes": [],
+        "cast": ["Bill Simmons"],
+        "rating": 4.4
+    },
+    {
+        "id": 24,
+        "title": "Fantasy Football: The Fantasy Footballer's Podcast",
+        "genreName": ["Sports"],
+        "genreIds": [5],
+        "description": "Fantasy Football at it's very best.  Say goodbye to the talking heads of Fantasy Football and hello to The Fantasy Footballers.  The expert trio of Andy Holloway, Jason Moore, and Mike 'The Fantasy Hitman' Wright break down the world of Fantasy Football with astute analysis, strong opinions, and matchup-winning advice you can't get anywhere else.  A high quality and entertaining show that will win you your Fantasy Football league -- in style.  The ONE Fantasy Football Podcast you can't leave off your roster.",
+        "imageURL": "https://s26212.pcdn.co/wp-content/uploads/2017/10/subscribe_page.jpg",
+        "latestEpisodes": [],
+        "cast": ["Andy Holloway", "Jason Moore", "Mike Wright"],
+        "rating": 4.8
+    },
+    {
+        "id": 25,
+        "title": "The Podium",
+        "genreName": ["Sports", "Society and Culture"],
+        "genreIds": [5, 1],
+        "description": "The Podium: An NBC Olympics podcast. Join us for insider coverage during the 17 intense days of competition at the 2020 Olympic Summer Games in Tokyo. In the run-up to the opening ceremony, we’ll bring you deep into the stories and events that have defined the Olympics and those that will shape the Tokyo Olympics, plus an intimate look into the unseen details that only the athletes themselves can tell.",
+        "imageURL": "https://content.production.cdn.art19.com/images/8c/d5/e0/b1/8cd5e0b1-1833-49fe-a324-ff7204086f0e/bacbae6f373a46093767a686096bfeeb130c378e4366f1e7c6eea6943942714837a0a902715ded17f96dd530d853fe70c4ad7695eb22c530903691788218cb53.jpeg",
+        "latestEpisodes": [],
+        "cast": [],
+        "rating": 3.7
+    },
+    {
+        "id": 26,
+        "title": "Morning Wire",
+        "genreName": ["News", "Society and Culture"],
+        "genreIds": [6, 4],
+        "description": "Trust in the media is at an all-time low. And there’s a reason—endless virtue signaling and manufactured outrage. Finally, there’s an alternative. Morning Wire is presented by Daily Wire Editor-in-Chief, John Bickley, and co-host Georgia Howe. Get daily coverage of the latest developments in politics, culture, education, sports, and more. Wake up with Morning Wire and get the facts first on the news you need to know.",
+        "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Podcasts115/v4/dc/3d/d3/dc3dd34c-44c1-6b06-dbbe-d818339d71a4/mza_1588093143090813002.jpg/1200x1200bb.jpg",
+        "latestEpisodes": [],
+        "cast": [],
+        "rating": 5
+    },
+    {
+        "id": 27,
+        "title": "The Daily",
+        "genreName": ["News"],
+        "genreIds": [6],
+        "description": "This is what the news should sound like. The biggest stories of our time, told by the best journalists in the world. Hosted by Michael Barbaro. Twenty minutes a day, five days a week, ready by 6 a.m.",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/en/b/b7/The_Daily_logo.jpg",
+        "latestEpisodes": [],
+        "cast": ["Michael Barbaro"],
+        "rating": 4.5
+    },
+    {
+        "id": 28,
+        "title": "20/20",
+        "genreName": ["News"],
+        "genreIds": [6],
+        "description": "ABC's 20/20 is the primetime news magazine program featuring newsmaker interviews, hard-hitting investigative reports, exclusives, compelling features and medical mysteries.",
+        "imageURL": "https://s.abcnews.com/images/US/2020PodcastSiteVERT_1618240965166_hpMain_4x5_608.jpg",
+        "latestEpisodes": [],
+        "cast": ["Amy Robach", "David Muir", "Karl Karlsen", "Lyle Menendez"],
+        "rating": 4
+    },
+    {
+        "id": 29,
+        "title": "Consider This from NPR",
+        "genreName": ["News"],
+        "genreIds": [6],
+        "description": "Every weekday afternoon, the hosts of NPR's All Things Considered help you make sense of a major news story and what it means for you in 15 minutes. In participating regions, you'll also hear from local journalists about what's happening in your community.",
+        "imageURL": "https://media.npr.org/assets/img/2021/03/03/considerthis_3000x3000_sq-84c940e58bfd188aabe893789018983522d175f1.png?s=1400",
+        "latestEpisodes": [],
+        "cast": ["Kelly McEvers"],
+        "rating": 4.2
+    },
+    {
+        "id": 30,
+        "title": "Pod Save America",
+        "genreName": ["News", "Society and Culture"],
+        "genreIds": [6, 4],
+        "description": "Four former aides to President Obama—Jon Favreau, Jon Lovett, Dan Pfeiffer and Tommy Vietor—are joined by journalists, politicians, activists, and more for a no-b******t conversation about politics. They cut through the noise to break down the week’s news, and help people figure out what matters and how they can help. New episodes Mondays and Thursdays.",
+        "imageURL": "https://lirp.cdn-website.com/ce0ec9f3/dms3rep/multi/opt/POD+SAVE+AMERICA-640w.JPG",
+        "latestEpisodes": [],
+        "cast": ["Dan Pfeiffer", "Jon Favreau", "Tommy Vietor", "Jon Lovett"],
+        "rating": 4.5
+        }
+]

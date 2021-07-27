@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0 5px;
+  background-color: black;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+}
+header {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+#logo {
+  margin-left: -75px;
+}
+.nav-container {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+}
+.nav-link:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+  margin-bottom: -45px;
+  margin-top: 40px;
+  border: none;
+}
+.search-bar {
+  height: 7vh;
+  width: 45vw;
+  background-color: white;
+  font-size: 20px;
+  border: none;
+  box-shadow: inset;
+  color: black;
+}
+input {
+  padding: 10px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+input:focus,
+textarea {
+  outline: none !important;
+}
+#search-button {
+  height: 7vh;
+  width: 6vw;
+  background-color: #133a94;
+  border-radius: 5%;
+  font-size: 20px;
+  border: none;
+  opacity: 75%;
+}
+#search-button:hover {
+  border: 1px solid white;
+  opacity: 100%;
+}
+.banner-container {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-left {
+  height: 500px;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 200px;
+  margin-left: 100px;
+  font-size: 26px;
+}
+.banner-right {
+  background-image: url("https://images.unsplash.com/photo-1516223725307-6f76b9ec8742?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80");
+  background-size: cover;
+  height: 500px;
+  width: 60%;
+  opacity: 70%;
+}
+
+.display-container {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 3%;
+}
+.pod-card {
+  height: 30vh;
+  width: 20%;
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.podcast-image {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+}
+
+.podcast-image:hover {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.row-1 {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  display: none;
+}
+.row-1.visible {
+  display: flex;
+}
+#bottom-container,
+#middle-container,
+#top-container {
+  overflow-x: scroll;
+}
