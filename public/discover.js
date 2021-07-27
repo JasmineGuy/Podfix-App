@@ -16,7 +16,7 @@ const getCategory = (id) => {
         }
     }
     axios
-    .get(`http://localhost:4000/api/category/${id}`)
+    .get(`/api/category/${id}`)
     .then((res)=> {
         let podInfo = res.data
 
