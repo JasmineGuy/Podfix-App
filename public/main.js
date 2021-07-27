@@ -8,7 +8,7 @@ const searchRow = document.querySelector('.row-1')
 
 const getTrending = () => {
     axios
-    .get('http://localhost:4000/api/trending')
+    .get('/api/trending')
     .then((res)=> {
         let podInfo = res.data
         console.log(res.data)
