@@ -15,11 +15,6 @@ module.exports = {
         const comedy = podcasts.filter(podcast => podcast.genreIds.includes(3) )
         res.status(200).send(comedy)
     },
-    // searchPods: (req, res) => {
-    //     const { search} = req.body;
-    //     let searchResults = podcasts.filter(podcast => podcast.title.includes(search)|| podcast.genreName.includes(search) || podcast.cast.includes(search)) 
-    //     res.status(200).send(searchResults)
-    // },
     searchPods: (req, res) => {
         const { search} = req.body;
         let editSearch = search.toLowerCase()
