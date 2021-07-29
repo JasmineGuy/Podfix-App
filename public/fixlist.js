@@ -1,8 +1,12 @@
 // const { default: axios } = require("axios")
 
+const { default: axios } = require("axios")
+
 const fixListView= document.querySelector('.list')
 
-function getFixList(){
+
+
+ function getFixList(){
     axios
     .get('/api/get-fix-list')
     .then((res)=> {
@@ -22,12 +26,17 @@ function getFixList(){
             `<div class="wrapper">
                 <img alt='list-card-image' src='${item.imageURL}'    class='list-image'/>
                 <div class"info">
-                <p> Title: ${item.title}</p>
-                <p> Rating: ${item.rating}</p>
+                    <p> Title: ${item.title}</p>
+                    <p> Rating: ${item.rating}</p>
+                </div>
+                <div class="button-holder">
+                <button class"delete">Delete</button>
                 </div>
             </div>
             `
             
+            let deleteBtn = document.querySelector('.delete')
+            deleteBtn.addEventListener('click', () => deletePod(item.id))
             fixListView.appendChild(listCard)
 
             return listCard
@@ -35,5 +44,13 @@ function getFixList(){
     })
 };
 
-
+function deletePod(id){
+    axios
+    .delete(`/api/delete/${id}`)
+    .then((res =>{
+        let newList = res.data
+        getFixList()
+    }))
+}
 getFixList()
+

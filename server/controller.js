@@ -82,5 +82,13 @@ module.exports = {
         console.log(final)
         res.status(200).send(final)
         
+    },
+    deletePod: (req, res)=> {
+        let { id } = req.params
+        console.log(id)
+        let deleteMe = podcasts.findIndex(pod => pod.id ===id)
+        console.log(deleteMe)
+        podcasts.splice(deleteMe, 1)
+        res.status(200).send(podcasts)
     }
 }

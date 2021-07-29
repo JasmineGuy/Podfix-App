@@ -26,6 +26,7 @@ app.get('/api/get-details/:id', ctrl.getDetails);
 app.post('/api/add-fix-list', ctrl.addToFixList);
 app.get('/api/get-fix-list', ctrl.getFixList);
 app.post('/api/get-recommendations', ctrl.getRecs);
+app.delete('/api/delete/:id', ctrl.deletePod)
 
 
 app.listen(port, () => {
