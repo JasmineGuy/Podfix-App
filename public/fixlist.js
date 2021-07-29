@@ -1,9 +1,8 @@
 const fixListView= document.querySelector('.list')
 
 async function getFixList(){
-    console.log('GET FIX')
   axios
-    .get('/api/get-fix-list')
+    .get('http://localhost:4000/api/get-fix-list')
 
     .then((res)=> {
         let list =res.data

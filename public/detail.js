@@ -14,7 +14,7 @@ async function getDetails(){
     pageId = id
 
 
-    await axios.get(`/api/get-details/${id}`)
+    await axios.get(`http://localhost:4000/api/get-details/${id}`)
     .then((res)=> {
 
         let featurePod =res.data
@@ -49,7 +49,7 @@ async function getDetails(){
 
     
     axios
-    .post(`/api/get-recommendations`, { genreIds, id })
+    .post(`http://localhost:4000/api/get-recommendations`, { genreIds, id })
     .then((res)=> {
         let recInfo = res.data
 
@@ -72,7 +72,7 @@ async function getDetails(){
 
 function addToFixList(pageId){
    axios
-   .post('/api/add-fix-list', {id: pageId}) 
+   .post('http://localhost:4000/api/add-fix-list', {id: pageId}) 
    .then((res) => {
        let added =res.data
   

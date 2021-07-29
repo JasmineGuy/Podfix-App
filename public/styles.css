@@ -70,7 +70,6 @@ textarea {
   opacity: 75%;
 }
 #search-button:hover {
-  /* border: 1px solid white; */
   opacity: 100%;
   border: 3px solid white;
   border-radius: 3px;
@@ -103,7 +102,7 @@ textarea {
   width: 100%;
   display: flex;
   flex-direction: row;
-  margin: 3%;
+  /* padding: 0 5px; */
 }
 .pod-card {
   height: 30vh;
@@ -135,22 +134,24 @@ textarea {
   width: 100%;
   display: flex;
   display: none;
+  overflow-y: scroll;
 }
-/* search-title {
-  height: 10vh;
-  display: flex;
-  flex-direction: column;
-} */
+
 .row-1.visible {
   height: 30vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* margin: 3%; */
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 #bottom-container,
 #middle-container,
 #top-container {
   overflow-x: scroll;
+}
+
+.no-match {
+  margin: auto;
+  color: grey;
+  font-size: 20px;
 }

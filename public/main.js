@@ -6,12 +6,12 @@ const podContainer3 =document.querySelector('#bottom-container')
 const searchBtn = document.querySelector('#search-button')
 const searchRow = document.querySelector('#search-display')
 
+
 const getTrending = () => {
     axios
-    .get('/api/trending')
+    .get('http://localhost:4000/api/trending')
     .then((res)=> {
         let podInfo = res.data
-        console.log(res.data)
         let podCards = podInfo.map(pod => {
             let podCard = document.createElement('a')
             podCard.classList.add('pod-card')
@@ -33,7 +33,7 @@ const getTrending = () => {
 
 const getTrueCrime = () => {
     axios
-    .get('/api/true-crime')
+    .get('http://localhost:4000/api/true-crime')
     .then((res)=> {
         let podInfo = res.data
         let podCards = podInfo.map(pod => {
@@ -56,7 +56,7 @@ const getTrueCrime = () => {
 
 const getComedy = () => {
     axios
-    .get('/api/comedy')
+    .get('http://localhost:4000/api/comedy')
     .then((res)=> {
         let podInfo = res.data
         let podCards = podInfo.map(pod => {
@@ -113,17 +113,22 @@ function clicked(e){
     }
 
     axios
-    .post('/api/search', {search: query.value})
+    .post('http://localhost:4000/api/search', {search: query.value})
     .then((res)=> {
         let results = res.data
-        console.log('checking results:', results)
+        if(results.length ===0){
+            let noMatch = document.createElement('div')
+            noMatch.textContent = 'No results match your search'
+            noMatch.classList.add('no-match')
+            searchRow.appendChild(noMatch)
+
+        }
         showResults(results)
     })
 };
 
+
 function getDetails(id){
-    console.log('clicked')
-    console.log(id)
     "window.location.href='detail.html?id=666'"
     
 

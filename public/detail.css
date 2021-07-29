@@ -83,7 +83,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  margin: auto;
+  margin: 5px auto;
+  overflow-x: scroll;
 }
 .rec-image {
   width: 15vw;

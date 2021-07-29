@@ -64,11 +64,13 @@ a {
   font-size: 20px;
   border: 3px solid #a85c9c;
   border-radius: 3px;
-  margin: 3px;
-  /* border: 1px solid gold; */
+  margin: 1%;
   justify-content: space-between;
   align-items: center;
-  /* color: black; */
+}
+.left {
+  width: 450px;
+  display: flex;
 }
 .list-image {
   height: 10vh;
@@ -86,7 +88,9 @@ a {
   height: 10vh;
   width: 10vw;
   font-size: 20px;
-  border: 3px solid #a85c9c;
+  border: 3px solid white;
+  color: white;
+  background-color: #a85c9c;
   border-radius: 3px;
   margin: 3px;
 }
