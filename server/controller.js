@@ -66,29 +66,29 @@ module.exports = {
     getRecs: (req, res)=> {
         let userRecs =[]
         let { id, genreIds } =req.body
-        console.log(req.body) 
-        console.log('get recs:', id)
-        console.log('get genres:', genreIds)
+       
         for (let i=0; i< genreIds.length; i++){
             let recs = podcasts.filter(pod => pod.genreIds.includes(genreIds[i]) && pod.id !== Number(id)) 
             userRecs.push(recs)
-
-            
         }
         let combined = [].concat(...userRecs);
         let final = combined.filter(function(item, pos) {
             return combined.indexOf(item) == pos;
         })
-        console.log(final)
         res.status(200).send(final)
         
     },
     deletePod: (req, res)=> {
         let { id } = req.params
-        console.log(id)
-        let deleteMe = podcasts.findIndex(pod => pod.id ===id)
-        console.log(deleteMe)
-        podcasts.splice(deleteMe, 1)
-        res.status(200).send(podcasts)
+        let deleteMe = fixList.findIndex(pod => pod === Number(id))
+        let remove = fixList.splice(deleteMe, 1)
+
+        let userFix = []
+        
+        for (let i = 0; i< fixList.length; i++){
+                let match = podcasts.find(pod => pod.id === fixList[i])
+            userFix.push(match)
+        }
+        res.status(200).send(userFix)
     }
 }

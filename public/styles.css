@@ -136,6 +136,10 @@ textarea {
   display: flex;
   display: none;
 }
+search-title {
+  display: flex;
+  flex-direction: column;
+}
 .row-1.visible {
   display: flex;
 }
