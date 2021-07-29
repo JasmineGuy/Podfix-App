@@ -4,7 +4,7 @@ const podContainer = document.querySelector('#top-container')
 const podContainer2 =document.querySelector('#middle-container')
 const podContainer3 =document.querySelector('#bottom-container')
 const searchBtn = document.querySelector('#search-button')
-const searchRow = document.querySelector('.row-1')
+const searchRow = document.querySelector('#search-display')
 
 const getTrending = () => {
     axios
