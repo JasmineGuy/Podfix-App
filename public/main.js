@@ -9,7 +9,7 @@ const searchRow = document.querySelector('#search-display')
 
 const getTrending = () => {
     axios
-    .get('http://localhost:4000/api/trending')
+    .get('/api/trending')
     .then((res)=> {
         let podInfo = res.data
         let podCards = podInfo.map(pod => {
@@ -33,7 +33,7 @@ const getTrending = () => {
 
 const getTrueCrime = () => {
     axios
-    .get('http://localhost:4000/api/true-crime')
+    .get('/api/true-crime')
     .then((res)=> {
         let podInfo = res.data
         let podCards = podInfo.map(pod => {
@@ -56,7 +56,7 @@ const getTrueCrime = () => {
 
 const getComedy = () => {
     axios
-    .get('http://localhost:4000/api/comedy')
+    .get('/api/comedy')
     .then((res)=> {
         let podInfo = res.data
         let podCards = podInfo.map(pod => {
@@ -113,7 +113,7 @@ function clicked(e){
     }
 
     axios
-    .post('http://localhost:4000/api/search', {search: query.value})
+    .post('/api/search', {search: query.value})
     .then((res)=> {
         let results = res.data
         if(results.length ===0){

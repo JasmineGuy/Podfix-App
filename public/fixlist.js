@@ -2,7 +2,7 @@ const fixListView= document.querySelector('.list')
 
 async function getFixList(){
   axios
-    .get('http://localhost:4000/api/get-fix-list')
+    .get('/api/get-fix-list')
 
     .then((res)=> {
         let list =res.data
