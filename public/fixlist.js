@@ -1,6 +1,6 @@
 // const { default: axios } = require("axios")
 
-const { default: axios } = require("axios")
+// const { default: axios } = require("axios")
 
 const fixListView= document.querySelector('.list')
 
