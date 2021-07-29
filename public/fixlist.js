@@ -1,5 +1,7 @@
 // const { default: axios } = require("axios")
 
+const e = require("express")
+
 // const { default: axios } = require("axios")
 
 const fixListView= document.querySelector('.list')
@@ -24,13 +26,15 @@ async function getFixList(){
             listCard.setAttribute('href', `./detail.html?id=${item.id}`)
             listCard.innerHTML =
             `<div class="wrapper">
-                <img alt='list-card-image' src='${item.imageURL}'    class='list-image'/>
-                <div class"info">
-                    <p> Title: ${item.title}</p>
-                    <p> Rating: ${item.rating}</p>
+                <div class="left">
+                    <img alt='list-card-image' src='${item.imageURL}'    class='list-image'/>
+                    <div class"info">
+                        <p> Title: ${item.title}</p>
+                        <p> Rating: ${item.rating}</p>
+                    </div>
                 </div>
                 <div class="button-holder">
-                <button class="delete">Delete</button>
+                    <button class="delete">Delete</button>
                 </div>
             </div>
             `
@@ -46,6 +50,8 @@ async function getFixList(){
 };
 
 function deletePod(id){
+    e.preventDefault()
+    e.stopPropagation()
     axios
     .delete(`/api/delete/${id}`)
     .then((res =>{
