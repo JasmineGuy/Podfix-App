@@ -14,7 +14,8 @@ async function getFixList(){
             fixListView.appendChild(alert)
         }
         let listItems = list.map((item, index) => {
-            let listCard = document.createElement('div')
+            let listCard = document.createElement('a')
+            listCard.setAttribute('href', `./detail.html?id=${item.id}`)
             listCard.classList.add('list-card')
             listCard.setAttribute("id", `${item.id}`)
     
