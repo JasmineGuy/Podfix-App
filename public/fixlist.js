@@ -41,9 +41,10 @@ async function getFixList(){
     })
 };
 
-function deletePod(id, e){
-    e.preventDefault()
-    e.stopPropagation()
+function deletePod(id, event){
+    console.log('clicked')
+    event.preventDefault()
+    event.stopPropagation()
     axios
     .delete(`/api/delete/${id}`)
     .then((res =>{
