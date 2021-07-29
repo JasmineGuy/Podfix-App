@@ -98,16 +98,18 @@ textarea {
 }
 
 .display-container {
-  height: 30vh;
+  height: 80%;
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-bottom: 35px;
+
   /* padding: 0 5px; */
 }
 .pod-card {
   height: 30vh;
   width: 20%;
-  width: 100%;
+  /* width: 100%; */
   margin-left: 15px;
   margin-right: 15px;
   display: flex;
@@ -130,19 +132,18 @@ textarea {
   transform: scale(1.1);
 }
 .row-1 {
-  height: 30vh;
+  height: 80%;
   width: 100%;
   display: flex;
   display: none;
-  overflow-y: scroll;
 }
 
 .row-1.visible {
-  height: 30vh;
-  width: 100%;
+  overflow-x: scroll;
+  height: 80%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 40px;
+  margin-bottom: 35px;
 }
 #bottom-container,
 #middle-container,

@@ -79,7 +79,4 @@ function addToFixList(pageId){
    })
 }
 
-
-
-
 getDetails()
