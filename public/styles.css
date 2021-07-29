@@ -137,11 +137,11 @@ textarea {
   display: none;
   flex-direction: column;
 }
-search-title {
+/* search-title {
   height: 10vh;
   display: flex;
   flex-direction: column;
-}
+} */
 .row-1.visible {
   display: flex;
 }
