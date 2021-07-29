@@ -15,7 +15,8 @@ async function getFixList(){
         }
         let listItems = list.map((item, index) => {
             let listCard = document.createElement('a')
-            listCard.setAttribute('href', `./detail.html?id=${item.id}`)
+            // listCard.setAttribute('href', `./detail.html?id=${item.id}`)
+
             listCard.classList.add('list-card')
             listCard.setAttribute("id", `${item.id}`)
     
@@ -38,6 +39,7 @@ async function getFixList(){
             
             fixListView.appendChild(listCard)
             let deleteBtn = document.getElementById(`card-${item.id}`)
+            // let imageCard =document.querySelector('.list-image')
             deleteBtn.addEventListener('click', () => deletePod(item.id))
 
             return listCard
