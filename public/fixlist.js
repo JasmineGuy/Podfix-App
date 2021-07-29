@@ -1,12 +1,4 @@
-// const { default: axios } = require("axios")
-
-const e = require("express")
-
-// const { default: axios } = require("axios")
-
 const fixListView= document.querySelector('.list')
-
-
 
 async function getFixList(){
   axios
@@ -49,7 +41,7 @@ async function getFixList(){
     })
 };
 
-function deletePod(id){
+function deletePod(id, e){
     e.preventDefault()
     e.stopPropagation()
     axios

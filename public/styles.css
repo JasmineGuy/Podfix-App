@@ -131,7 +131,7 @@ textarea {
   transform: scale(1.1);
 }
 .row-1 {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   display: flex;
   overflow-x: scroll;
