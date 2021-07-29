@@ -6,8 +6,8 @@ const fixListView= document.querySelector('.list')
 
 
 
- async function getFixList(){
-  await axios
+function getFixList(){
+  axios
     .get('/api/get-fix-list')
     .then((res)=> {
         let list =res.data
@@ -30,7 +30,7 @@ const fixListView= document.querySelector('.list')
                     <p> Rating: ${item.rating}</p>
                 </div>
                 <div class="button-holder">
-                <button class"delete">Delete</button>
+                <button class="delete">Delete</button>
                 </div>
             </div>
             `
