@@ -142,8 +142,12 @@ textarea {
   flex-direction: column;
 } */
 .row-1.visible {
+  height: 30vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  margin: 3%;
+  padding-bottom: 20px;
 }
 #bottom-container,
 #middle-container,
