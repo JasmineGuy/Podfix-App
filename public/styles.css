@@ -143,7 +143,7 @@ textarea {
 } */
 .row-1.visible {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 #bottom-container,
 #middle-container,
