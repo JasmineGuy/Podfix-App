@@ -6,7 +6,7 @@ const fixListView= document.querySelector('.list')
 
 
 
-function getFixList(){
+async function getFixList(){
   axios
     .get('/api/get-fix-list')
     .then((res)=> {
@@ -35,9 +35,10 @@ function getFixList(){
             </div>
             `
             
+            
+            fixListView.appendChild(listCard)
             let deleteBtn = document.querySelector('.delete')
             deleteBtn.addEventListener('click', () => deletePod(item.id))
-            fixListView.appendChild(listCard)
 
             return listCard
         })
