@@ -131,12 +131,13 @@ textarea {
   transform: scale(1.1);
 }
 .row-1 {
-  height: 40vh;
+  height: 30vh;
   width: 100%;
   display: flex;
   display: none;
 }
 search-title {
+  height: 10vh;
   display: flex;
   flex-direction: column;
 }
