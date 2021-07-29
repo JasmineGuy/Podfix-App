@@ -14,7 +14,7 @@ async function getFixList(){
         }
         let listItems = list.map((item, index) => {
             let listCard = document.createElement('a')
-            // listCard.setAttribute('href', `./detail.html?id=${item.id}`)
+            listCard.setAttribute('href', `./detail.html?id=${item.id}`)
 
             listCard.classList.add('list-card')
             listCard.setAttribute("id", `${item.id}`)
@@ -22,8 +22,11 @@ async function getFixList(){
             listCard.innerHTML =
             `<div class="wrapper">
                 <div class="left">
-                    <img alt='list-card-image' src='${item.imageURL}'    class='list-image'/>
-                    <div class"info">
+                    <img 
+                        alt='list-card-image' 
+                        src='${item.imageURL}'    class='list-image'
+                    />
+                    <div class="info">
                         <p> Title: ${item.title}</p>
                         <p> Rating: ${item.rating}</p>
                     </div>
@@ -38,15 +41,16 @@ async function getFixList(){
             
             fixListView.appendChild(listCard)
             let deleteBtn = document.getElementById(`card-${item.id}`)
-            // let imageCard =document.querySelector('.list-image')
-            deleteBtn.addEventListener('click', () => deletePod(item.id))
+            deleteBtn.addEventListener('click', e => deletePod(item.id, e))
 
             return listCard
         })
     })
 };
 
-function deletePod(id){
+function deletePod(id, e){
+    e.preventDefault();
+    e.stopPropagation();
     let deleteId = id.toString();
     let deleteMe = document.getElementById(deleteId)
     

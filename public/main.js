@@ -111,6 +111,10 @@ function clicked(e){
             searchRow.removeChild(nested[i])
         }
     }
+    let searchAgain = document.querySelector('.no-match')
+    if (searchAgain){
+        searchRow.removeChild(searchAgain)
+    }
 
     axios
     .post('/api/search', {search: query.value})
